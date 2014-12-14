@@ -1,0 +1,26 @@
+h1, table {
+	font-family: "Arial", sans-serif;
+}
+table {
+	width: 100%;
+	font-size: 0.875em; 
+	border-collapse: collapse;
+}
+table, th, td {
+ border: 1px solid black;
+}
+td {
+	text-align: center;
+}
+table.report-info {
+	width: 35%;
+	border: 0px;
+}
+table.report-info th {
+	width: 10%;
+	text-align: right;
+}
+table.report-info td {
+	text-align: left;
+	padding-left: 15px;
+}
